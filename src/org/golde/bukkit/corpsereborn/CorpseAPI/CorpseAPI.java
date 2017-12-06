@@ -147,6 +147,11 @@ public class CorpseAPI {
 	public static CorpseData spawnCorpse(Player player, Location location){
 		return spawnCorpse(player, null, location, null, null, null, null, null, null, null);
 	}
+	
+	public static CorpseData spawnCorpse(Player player, Location location, int rotation)
+	{
+		return spawnCorpse(player, null, location, null, null, null, null, null, null, int rotation));
+	}
 
 
 	/**
